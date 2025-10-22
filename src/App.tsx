@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import Dashboard from './Components/dashboard'
-import Mainui from './Components/mainui'
-import Sideui from './Components/sideui'
-import Title from './Components/title'
+import Dashboard from "./Components/Dashboard"
+import Mainui from "./Components/Mainui"
+import Sideui from "./Components/Sideui"
+import Title from "./Components/Title"
 import './App.css'
 
 function App() {
