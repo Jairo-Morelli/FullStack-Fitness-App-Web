@@ -1,21 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap');
 html{
-    background-color: grey;
+    background-color: var(--color-bg);
+    color: #f24b18;
+    font-family:"BBH Sans Bartle", sans-serif;
 }
 
 
 :root{
-    --colour-bg:#ffffff; 
-    --color-surface: #f7f7f8;
-    --color-text: #111111; 
-    --color-text-muted: #555555; 
-    --color-primary:#3b82f6;
-    --color-border: #e4e4e7;
+    --color-bg:#2d3138; 
+    --color-surface: #f5ebe9;
+    --color-text: #f24b18; 
+    --color-text-muted: #f24b18; 
+    --color-primary:#f5ebe9;
+    --color-border: #2d3138;
     --color-success: #16a34a;
     --color-danger: #dc2626;
 }
 
 [data-theme="dark"]{
-    --colour-bg:#ffffff; 
+    --color-bg:#ffffff; 
     --color-surface: #f7f7f8;
     --color-text: #111111; 
     --color-text-muted: #555555; 
