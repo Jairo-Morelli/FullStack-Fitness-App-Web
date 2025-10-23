@@ -29,7 +29,7 @@ function App() {
       <Dashboard/>
       </div>
     </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center border-white h-[100px] border-1">
       <footer> footer </footer>
       </div>
     </>
