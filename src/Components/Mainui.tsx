@@ -1,8 +1,12 @@
-
+import style from "../modules/Mainui.module.css"
 function Mainui(){
 
     return(<>
-        <h1>Main-UI</h1>
+    <div className={style.base}>
+        <div className="flex justify-center">
+        <h1 className="text-4xl">Main-UI</h1>
+        </div>
+    </div>
     </>)
 }
 
